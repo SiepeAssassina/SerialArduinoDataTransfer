@@ -14,7 +14,7 @@ namespace SerialConsole
         {
             char[] buffer = new char[1];
             com = new SerialPort("COM3");
-            com.BaudRate = 1200;
+            com.BaudRate = 115200;
             com.Parity = Parity.None;
             com.StopBits = StopBits.One;
             com.Handshake = Handshake.None;
